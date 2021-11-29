@@ -62,7 +62,7 @@ class _HomeState extends State<Home> {
           )
         ],
       ),
-      body: DrawTab(),
+      body: HomeTab(),
       bottomNavigationBar: buildBottomBar(),
     );
   }

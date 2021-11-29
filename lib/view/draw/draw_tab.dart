@@ -4,7 +4,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class DrawTab extends StatefulWidget {
-  _DrawTabState _drawTabState = _DrawTabState();
+  final _DrawTabState _drawTabState = _DrawTabState();
 
   DrawTab({Key? key}) : super(key: key);
 

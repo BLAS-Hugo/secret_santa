@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:party_app/view/home.dart';
+
+import 'package:party_app/view/wrapper.dart';
 
 void main() {
   runApp(MyApp());
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       routes: {
-        '/': (context) => Home(title: "Home",),
+        '/': (context) => Wrapper(),
       },
     );
   }
